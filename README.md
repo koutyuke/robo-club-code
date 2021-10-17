@@ -36,12 +36,10 @@
 
 ##### 求めたいのは①の大きさです。座標のベクトルの大きさをdとでもしておきましょうか。
 
-$$
-\begin{align}
-|①|&=\sin(45°-\theta)\times(座標ベクトルの大きさ)\\
-&=\sin(45°-\theta)\times d\\
-\end{align}
-$$
+![\begin{align}
+&=\sin(45-\theta)\times()\\
+&=\sin(45-\theta)\times d\\
+\end{align}](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Balign%7D%0A%26%3D%5Csin%2845-%5Ctheta%29%5Ctimes%28%29%5C%5C%0A%26%3D%5Csin%2845-%5Ctheta%29%5Ctimes+d%5C%5C%0A%5Cend%7Balign%7D)
 
 ##### ではsin(45°-θ)って何なんでしょうか？
 
