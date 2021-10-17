@@ -36,47 +36,20 @@
 
 ##### 求めたいのは①の大きさです。座標のベクトルの大きさをdとでもしておきましょうか。
 
-
-
-![\begin{align}
-|①|&=\sin(45°-\theta)\times(座標ベクトルの大きさ)\\
-&=\sin(45°-\theta)\times d\\
-\end{align}](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Balign%7D%0A%26%3D%5Csin%2845-%5Ctheta%29%5Ctimes%28%29%5C%5C%0A%26%3D%5Csin%2845-%5Ctheta%29%5Ctimes+d%5C%5C%0A%5Cend%7Balign%7D)
+![image](https://user-images.githubusercontent.com/75959529/137631093-d520f3cc-eabc-406f-b75c-809a907f34d3.png)
 
 ##### ではsin(45°-θ)って何なんでしょうか？
 
-$$
-\begin{align}
-\sin(45°-\theta)&=\sin(45°)\cos(θ)-\cos(45°)\sin(θ)
-
-\end{align}
-$$
+![image](https://user-images.githubusercontent.com/75959529/137631117-048c5485-720a-482b-b95b-bb5fc1861048.png)
 
 ##### いい感じに分解できましたね。ではsin(θ)とcos(θ)は?というと座標が出ているので三角関数の定義にのっとって作れますね。
 
-$$
-\begin{align}
-\sin(\theta)&=\frac{a}{d}\\
-\cos(\theta)&=\frac{b}{d}
-
-\end{align}
-$$
-
+![image](https://user-images.githubusercontent.com/75959529/137631141-cf0c02a7-fa2e-49a5-aaf6-7c9a173049a1.png)
 
 
 ##### こいつらを連結させます。
 
-$$
-\begin{align}
-|①|&=\sin(45°-\theta)\times(座標ベクトルの大きさ)\\
-&=\sin(45°-\theta)\times d\\
-&=\bigl\{ \sin(45°)\cos(θ)-\cos(45°)\sin(θ)\bigl\}\times d\\
-&=\bigl\{\frac{\sqrt{2}}{2}\frac{b}{d}-\frac{\sqrt{2}}{2}\frac{a}{d}\bigl\}\times d\\
-&=\frac{\sqrt{2}}{2}\frac{1}{d}\times d\times (b-a)\\
-&=(0.7071...)\times(b-a)\\
-&=(0.7071...)\times(y座標-x座標)
-\end{align}
-$$
+![image](https://user-images.githubusercontent.com/75959529/137631162-1d9b0317-2c86-4e25-bfe3-f7f1a5cb8cf9.png)
 
 ##### いい感じにきれいになりましたね。つまり座標ベクトルとの角度は関係なく、座標自体に依存して①の大きさは変化するということなんですね。
 
