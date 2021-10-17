@@ -2,7 +2,7 @@
 
 ## モーターの配置図
 
-![](\image\S__3383320.jpg)
+![](https://user-images.githubusercontent.com/75959529/137630187-3db6e2a3-9cfa-41cb-8887-9cf5d0d3379e.jpg)
 
 ###### ※正面を上としたときにモーターの正転は右回転にしています。
 
